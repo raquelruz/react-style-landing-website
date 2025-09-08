@@ -21,7 +21,7 @@ export const NavBar = () => {
                     gap: "20px",
 				}}
 			>
-				<NavLink to="/">Home</NavLink>
+				<NavLink to="/home">Home</NavLink>
 				<NavLink to="/features">Features</NavLink>
 				<NavLink to="/community">Community</NavLink>
 				<NavLink to="/blog">Blog</NavLink>

@@ -1,0 +1,42 @@
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F5F7FA;
+}
+
+.content {
+    width: 30%;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.content span {
+    color: #4CAF4F;
+}
+
+.content p {
+    color: #424242;
+    font-size: 18px;
+}
+
+.imgcontainer {
+    width: 20%;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container button {
+    background-color: #4CAF4F;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 4px;
+}

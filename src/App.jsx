@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import { NavBar } from "./components/Navbar";
-import { HomePage } from "./pages/HomePage";
+import { HomePage } from "./pages/HomePage/HomePage";
 
 export const App = () => {
 	return (
@@ -10,8 +10,7 @@ export const App = () => {
 
 			<main className="main">
 				<Routes>
-					<Route path="/" element={<HomePage />} />
-
+					<Route path="/home" element={<HomePage />} />
 				</Routes>
 			</main>
 		</div>
