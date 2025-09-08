@@ -41,7 +41,7 @@ export const LocalBusiness = () => {
 
 				<div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
 					<img
-						src="/src/media/icons/card-icon.png.png"
+						src="/src/media/icons/card-icon.png"
 						alt=""
 						className="h-12 mb-4 transition-transform duration-300 hover:scale-110"
 					/>
