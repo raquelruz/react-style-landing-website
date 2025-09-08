@@ -1,3 +1,4 @@
+import { Community } from "../../components/Community"
 import { Hero } from "../../components/Hero/Hero"
 import { OurClients } from "../../components/OurClients"
 
@@ -7,6 +8,8 @@ export const HomePage = () => {
 			<Hero />
 
 			<OurClients />
+
+			<Community />
 		</div>
 	)
 }
